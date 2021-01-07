@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+         
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses":["Talk to you later", "Goodbye!"]
+        },
+        {"tag": "birthday_remainder",
+         "patterns": ["Add birtday to database"],
+         "responses": ["Adding information to database"]
+        },
+        {"tag": "Youtube_search",
+         "patterns": ["Play"],
+         "responses": ["Opening Youtube, Playing the recomended video on the youtube"]
+        },
+        {"tag": "Google_search",
+         "patterns": ["Search for","Search about","Show me on google","Show about me on google","Find on google about"],
+         "responses": ["Opening chrome"]
+        },
+        {"tag": "Info",
+         "patterns": ["Get the information on ","I need some information on","Tell me about","Tell me something about"],
+         "responses": ["Getting required informations from wikipedia"]
+        },
+        {
+        "tag": "System_operation",
+         "patterns": ["Shutdown desktop","Shutdown","restart","logoff","Restart desktop","Restart windows","logoff deaktop","logoff windows"],
+         "responses": []
+        },
+        {
+        "tag": "Whatsapp_msg_status",
+         "patterns": ["whats my whatsapp status hill","Get my whatsapp status", "Anyone has texted  me in whatsapp"],
+         "responses": []
+        }
+   ]
+}
